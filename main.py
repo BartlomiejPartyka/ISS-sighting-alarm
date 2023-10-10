@@ -36,7 +36,8 @@ def is_night():
     now = datetime.datetime.now().hour
 
     if now >= sunset or now <= sunrise:
-            return True
+        return True
+
 
 while True:
     time.sleep(60)
